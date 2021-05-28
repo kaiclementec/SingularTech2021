@@ -1,0 +1,12 @@
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\bin\Debug\netcoreapp3.1\SingularTech.Business.Interfaces.deps.json
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\bin\Debug\netcoreapp3.1\SingularTech.Business.Interfaces.dll
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\bin\Debug\netcoreapp3.1\SingularTech.Business.Interfaces.pdb
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\bin\Debug\netcoreapp3.1\SingularTech.Entities.dll
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\bin\Debug\netcoreapp3.1\SingularTech.Entities.pdb
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\obj\Debug\netcoreapp3.1\SingularTech.Business.Interfaces.AssemblyInfoInputs.cache
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\obj\Debug\netcoreapp3.1\SingularTech.Business.Interfaces.AssemblyInfo.cs
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\obj\Debug\netcoreapp3.1\SingularTech.Business.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\obj\Debug\netcoreapp3.1\SingularTech.Business.Interfaces.csproj.CopyComplete
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\obj\Debug\netcoreapp3.1\SingularTech.Business.Interfaces.dll
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\obj\Debug\netcoreapp3.1\SingularTech.Business.Interfaces.pdb
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Business.Interfaces\obj\Debug\netcoreapp3.1\SingularTech.Business.Interfaces.csprojAssemblyReference.cache

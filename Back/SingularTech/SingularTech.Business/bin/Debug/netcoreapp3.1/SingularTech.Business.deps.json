@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SingularTech.Business/1.0.0": {
+        "dependencies": {
+          "SingularTech.Business.Interfaces": "1.0.0",
+          "SingularTech.Repository.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "SingularTech.Business.dll": {}
+        }
+      },
+      "SingularTech.Business.Interfaces/1.0.0": {
+        "dependencies": {
+          "SingularTech.Entities": "1.0.0"
+        },
+        "runtime": {
+          "SingularTech.Business.Interfaces.dll": {}
+        }
+      },
+      "SingularTech.Entities/1.0.0": {
+        "runtime": {
+          "SingularTech.Entities.dll": {}
+        }
+      },
+      "SingularTech.Repository.Interfaces/1.0.0": {
+        "dependencies": {
+          "SingularTech.Entities": "1.0.0"
+        },
+        "runtime": {
+          "SingularTech.Repository.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SingularTech.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SingularTech.Business.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SingularTech.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SingularTech.Repository.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

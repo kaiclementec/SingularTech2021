@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SingularTech.Business.Interfaces\SingularTech.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\SingularTech.Business\SingularTech.Business.csproj" />
+    <ProjectReference Include="..\SingularTech.Entities\SingularTech.Entities.csproj" />
+    <ProjectReference Include="..\SingularTech.Repository.Interfaces\SingularTech.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\SingularTech.Repository\SingularTech.Repository.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,9 @@
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Entities\bin\Release\netcoreapp3.1\SingularTech.Entities.deps.json
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Entities\bin\Release\netcoreapp3.1\SingularTech.Entities.dll
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Entities\bin\Release\netcoreapp3.1\SingularTech.Entities.pdb
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Entities\obj\Release\netcoreapp3.1\SingularTech.Entities.csprojAssemblyReference.cache
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Entities\obj\Release\netcoreapp3.1\SingularTech.Entities.AssemblyInfoInputs.cache
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Entities\obj\Release\netcoreapp3.1\SingularTech.Entities.AssemblyInfo.cs
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Entities\obj\Release\netcoreapp3.1\SingularTech.Entities.csproj.CoreCompileInputs.cache
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Entities\obj\Release\netcoreapp3.1\SingularTech.Entities.dll
+C:\Users\kaicl\source\repos\SingularTech\SingularTech.Entities\obj\Release\netcoreapp3.1\SingularTech.Entities.pdb

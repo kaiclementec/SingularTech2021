@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingularTech.WebApi", "SingularTech.WebApi\SingularTech.WebApi.csproj", "{CE209D9E-E787-443F-B5E7-110CA9E3D782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingularTech.Repository", "SingularTech.Repository\SingularTech.Repository.csproj", "{A114FFE6-6299-4C60-AB56-3C020E86286C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingularTech.Repository.Interfaces", "SingularTech.Repository.Interfaces\SingularTech.Repository.Interfaces.csproj", "{84249B7A-8C6F-4885-8A85-C51AEC3A175F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingularTech.Entities", "SingularTech.Entities\SingularTech.Entities.csproj", "{58624883-2D83-4DFC-830A-B2E7119F1AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingularTech.Business", "SingularTech.Business\SingularTech.Business.csproj", "{2488ADBA-8703-4F72-8ADB-C863DBD5E2E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingularTech.Business.Interfaces", "SingularTech.Business.Interfaces\SingularTech.Business.Interfaces.csproj", "{D8F0BB58-089C-48C2-9FCE-ECE612107E2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE209D9E-E787-443F-B5E7-110CA9E3D782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE209D9E-E787-443F-B5E7-110CA9E3D782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE209D9E-E787-443F-B5E7-110CA9E3D782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE209D9E-E787-443F-B5E7-110CA9E3D782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A114FFE6-6299-4C60-AB56-3C020E86286C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A114FFE6-6299-4C60-AB56-3C020E86286C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A114FFE6-6299-4C60-AB56-3C020E86286C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A114FFE6-6299-4C60-AB56-3C020E86286C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84249B7A-8C6F-4885-8A85-C51AEC3A175F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84249B7A-8C6F-4885-8A85-C51AEC3A175F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84249B7A-8C6F-4885-8A85-C51AEC3A175F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84249B7A-8C6F-4885-8A85-C51AEC3A175F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58624883-2D83-4DFC-830A-B2E7119F1AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58624883-2D83-4DFC-830A-B2E7119F1AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58624883-2D83-4DFC-830A-B2E7119F1AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58624883-2D83-4DFC-830A-B2E7119F1AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2488ADBA-8703-4F72-8ADB-C863DBD5E2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2488ADBA-8703-4F72-8ADB-C863DBD5E2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2488ADBA-8703-4F72-8ADB-C863DBD5E2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2488ADBA-8703-4F72-8ADB-C863DBD5E2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F0BB58-089C-48C2-9FCE-ECE612107E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F0BB58-089C-48C2-9FCE-ECE612107E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F0BB58-089C-48C2-9FCE-ECE612107E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F0BB58-089C-48C2-9FCE-ECE612107E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEEC46F9-BA96-4105-81F8-F62C51C98532}
+	EndGlobalSection
+EndGlobal
