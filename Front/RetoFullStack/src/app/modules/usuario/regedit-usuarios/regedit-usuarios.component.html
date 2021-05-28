@@ -1,0 +1,76 @@
+<!-- <div class="row justify-content-end">
+  <div class="col-auto">
+    <button #btnGuardar type="button" class="btn btn-success me-2">
+      Guardar
+    </button>
+    <button (click)="close()" class="btn btn-danger">
+      Cancelar
+    </button>
+  </div>
+</div> -->
+
+<h3 mat-dialog-title style="border-bottom: 1px solid #ebedf2;font-weight: 500;">Registro Usuario</h3>
+<div mat-dialog-content class="py-2 px-5" [formGroup]="formUser">
+  <!-- <fieldset class="fieldset-border rounded" [formGroup]="formUser"> -->
+  <!-- <legend class="fieldset-title">Datos Personales</legend> -->
+  <div class="row">
+    <div class="col-6">
+      <!-- [class.text-danger]="formUser.controls.correo.errors?.required" <span> *</span>-->
+      <label for="nombres" class="mb-0 p-0">Nombres</label>
+      <input formControlName="nombres" name="nombres" class="form-control form-control-sm">
+      <!-- [class.is-invalid]="formUser.controls.correo.errors?.required && formUser.controls.correo.touched" type="text" -->
+    </div>
+    <div class="col-6">
+      <!-- [class.text-danger]="formUser.controls.correo.errors?.required" <span> *</span>-->
+      <label for="apellidos" class="mb-0 p-0">Apellidos</label>
+      <input formControlName="apellidos" name="apellidos" class="form-control form-control-sm">
+      <!-- [class.is-invalid]="formUser.controls.correo.errors?.required && formUser.controls.correo.touched" type="text" -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <!-- [class.text-danger]="formUser.controls.correo.errors?.required" <span> *</span>-->
+      <label for="correoElectronico" class="mb-0 p-0">Correo Electrónico</label>
+      <input formControlName="correoElectronico" name="correoElectronico" class="form-control form-control-sm">
+      <!-- [class.is-invalid]="formUser.controls.correo.errors?.required && formUser.controls.correo.touched" type="text" -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <!-- [class.text-danger]="formUser.controls.correo.errors?.required" <span> *</span>-->
+      <!-- <label for="rolID" class="mb-0 p-0">Rol</label> -->
+      <!-- <input formControlName="rolID" name="rol" class="form-control form-control-sm"> -->
+      <ng-select-simple #refRol formControlName="rolID" [items]="dataRoles" [label]="'Rol'">
+      </ng-select-simple>
+      <!-- [class.is-invalid]="formUser.controls.correo.errors?.required && formUser.controls.correo.touched" type="text" -->
+    </div>
+    <div class="col-6">
+      <!-- [class.text-danger]="formUser.controls.correo.errors?.required" <span> *</span>-->
+      <label for="fechaNacimiento" class="mb-0 p-0">Fecha Nacimiento</label>
+      <input formControlName="fechaNacimiento" name="fechaNacimiento" class="form-control form-control-sm">
+      <!-- [class.is-invalid]="formUser.controls.correo.errors?.required && formUser.controls.correo.touched" type="text" -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <label for="password" class="mb-0 p-0">Contraseña</label>
+      <input formControlName="password" name="password" type="password" class="form-control form-control-sm">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <label for="repassword" class="mb-0 p-0">Repetir Contraseña</label>
+      <input formControlName="repassword" name="repassword" type="password" class="form-control form-control-sm">
+    </div>
+  </div>
+
+  <!-- </fieldset> -->
+</div>
+<div mat-dialog-actions class="justify-content-end">
+  <button #btnGuardar type="button" (click)="guardar()" class="btn btn-success me-2">
+    Guardar
+  </button>
+  <button (click)="close()" class="btn btn-danger">
+    Cancelar
+  </button>
+</div>

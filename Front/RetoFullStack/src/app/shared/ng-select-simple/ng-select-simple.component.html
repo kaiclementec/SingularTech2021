@@ -1,0 +1,25 @@
+<label *ngIf="label != null && label != ''" class="mb-0 p-0">{{label}}<span *ngIf="required"
+  [class.text-danger]="controls?.errors != null"> *</span></label>
+<div [class.input-icon]="controls?.errors != null && (controls?.dirty || controls?.touched)"
+[class.right]="controls?.errors != null && (controls?.dirty || controls?.touched)">
+<ng-select #ngSelectSimple [items]="items | async" [(ngModel)]="_value" [readonly]="disabled || readonly"
+  (change)="eventChange($event)" (blur)="eventBlur($event)" (focus)="eventFocus($event)" [markFirst]="markFirst"
+  [clearable]="clearable" [virtualScroll]="virtualScroll" [openOnEnter]="openOnEnter" notFoundText="No se encontraron resultados"
+  placeholder="Seleccionar" (keyup.enter)="enterKeyUp()" (keyup.ArrowLeft)="leftKeyUp()" [appendTo]="appendTo"
+  [loading]="loading" [loadingText]="loadingText" (clear)="clear()"
+  [class.customUpperCase]="upperCase"
+  [class.ng-select-invalid]="controls?.errors != null && (controls?.dirty || controls?.touched)"
+  [class.ng-select-touched]="controls?.errors != null && (controls?.dirty || controls?.touched)"
+  [class.ng-select-red]="backgroundCanal == true && _value != null && _value.value == 'R'"
+  [class.ng-select-orange]="backgroundCanal == true && _value != null && _value.value == 'N'"
+  [class.ng-select-green]="backgroundCanal == true && _value != null && _value.value == 'V'">
+  <ng-template ng-option-tmp let-item="item" let-index="index">
+    <span data-toggle="tooltip" title="{{item.label}}">{{ item.label }}</span>
+  </ng-template>
+</ng-select>
+</div>
+
+<small *ngIf="validatorMessage && controls?.errors?.required && (controls?.dirty || controls?.touched)"
+class="text-danger">
+El campo {{label}} es requerido
+</small>

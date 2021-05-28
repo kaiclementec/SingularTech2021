@@ -1,0 +1,40 @@
+
+#paginacion {
+	margin: 0;
+	padding: 0;
+}
+
+#paginacion > nav > ul > li > a > i {
+	margin: 0;
+	padding: 0;
+}
+
+#paginacion > nav > ul > li > a {
+	cursor: pointer;
+}
+
+#paginacion > nav > ul > li > a,
+#paginacion > nav > ul > li > span,
+.totalRegistros {
+	font-size: 1rem;
+}
+
+.totalRegistros > span {
+	padding-left: 4px;
+	font-size: 1rem;
+}
+button[disabled] {
+	pointer-events: none;
+}
+.dropdown-submenu
+{
+	color: #646c9a!important;
+}
+.container-submenu
+{
+	left:-5%!important
+}
+.dropdown-submenu a
+{
+	cursor: pointer;
+}
